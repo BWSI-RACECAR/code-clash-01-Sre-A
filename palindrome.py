@@ -27,8 +27,9 @@ Input: “dad”        Output: False
 
 class Solution:
     Write code below to complete prompt
-    def isPalindrome(self, s):
-        s 
+   def student_func(string):
+    string = string.replace(" ", "").lower()
+    return string == string[::-1]
             
             #TODO: Write code below to return a boolean value with the solution to the prompt.
             pass
