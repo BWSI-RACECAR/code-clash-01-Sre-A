@@ -26,11 +26,14 @@ Input: “dad”        Output: False
 """
 
 class Solution:
-    def student_func(string):
-        return s == s[::-1] and len(s) > 6
+    # Write code below to complete prompt
+    def isPalindrome(self, s):
+            #type s: string
+            #return type: booleanW
             
             #TODO: Write code below to return a boolean value with the solution to the prompt.
-            pass
+        return (s == s[::-1] and len(s) > 6)
+         
 
 def main():
     tc1 = Solution()
